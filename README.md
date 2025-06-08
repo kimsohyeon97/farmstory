@@ -22,7 +22,7 @@
 - **Singleton 패턴 서비스 계층**, 계층 간 명확한 역할 분리
 - View는 `/WEB-INF` 하위에 배치하여 직접 접근 방지
 
-🔧 사용 기술: Java, JSP, Servlet, DAO 패턴, DTO, MVC, JavaScript
+사용 기술: Java, JSP, Servlet, DAO 패턴, DTO, MVC, JavaScript
 
 
 ### 👤 회원가입 기능 (Register)
@@ -36,7 +36,7 @@
 - **Daum 주소 API 연동**으로 우편번호 자동 입력
 - **이메일 인증 로직 구현** (코드 생성 → 이메일 발송 → 세션 저장 → 인증 비교)
 
-🔧 사용 기술: Java, JSP, Servlet, SHA-256, JavaScript, Daum Postcode API, Gmail SMTP, Fetch API
+사용 기술: Java, JSP, Servlet, SHA-256, JavaScript, Daum Postcode API, Gmail SMTP, Fetch API
 
 ### 🔐 로그인 기능 (Login)
 
@@ -48,7 +48,7 @@
 - **실패/로그아웃 상태는 JS alert로 안내**
 - **비밀번호는 SQL에서 직접 SHA2 해시로 비교하여 DB 조회**
 
-🔧 사용 기술: Java, JSP, Servlet, DAO 패턴, SHA-256, Session, JavaScript
+사용 기술: Java, JSP, Servlet, DAO 패턴, SHA-256, Session, JavaScript
 
 ### 🚪 로그아웃 기능 (Logout)
 
@@ -59,7 +59,7 @@
 - **로그인 페이지 리다이렉트 후 JS alert 메시지로 알림 처리**
 - **result=101 쿼리 파라미터를 통해 로그아웃 메시지 분기 처리**
 
-🔧 사용 기술: Java, JSP, Servlet, Session
+사용 기술: Java, JSP, Servlet, Session
 
 ### 🔎 아이디 찾기 기능 (Find User ID with Email Verification)
 
@@ -71,7 +71,7 @@
 - **인증 성공 여부에 따라 다음 단계 이동 가능**
 - **Fetch 기반 AJAX 요청으로 UX 개선**
 
-🔧 사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
+사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
 
 ### 🧾 아이디 찾기 결과 화면 (Find User ID Result)
 
@@ -82,7 +82,7 @@
 - **직접 파라미터 전달 없이 서버 내 보안 처리**
 - **JSP는 /WEB-INF 경로 내에 배치하여 직접 접근 차단**
 
-🔧 사용 기술: Java, JSP, Servlet, Session
+사용 기술: Java, JSP, Servlet, Session
 
 ### 🔐 비밀번호 찾기 기능 (Password Recovery via Email Verification)
 
@@ -94,7 +94,7 @@
 - **비동기 Fetch API를 통해 UX 개선**
 - **클라이언트 측 인증번호 비교 및 인증 성공 시 다음 단계 활성화**
 
-🔧 사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
+사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
 
 ### 🔑 비밀번호 변경 기능 (Change Password)
 
@@ -105,6 +105,6 @@
 - **비밀번호 변경 완료 후 세션 무효화 및 로그인 페이지로 리다이렉트**
 - **비밀번호는 SQL로 직접 업데이트 (⚠ 현재 해시 미적용 → 개선 필요)**
 
-🔧 사용 기술: Java, JSP, Servlet, Session, JDBC
+사용 기술: Java, JSP, Servlet, Session, JDBC
 
 
