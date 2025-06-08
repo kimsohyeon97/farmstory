@@ -12,7 +12,7 @@
 ![js](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) <br><br>
 
 ## 내가 구현한 기능 
-### 📄 약관 동의 페이지 (Terms Agreement)
+### 1️⃣ 약관 동의 페이지 (Terms Agreement)
 
 > JSP + Servlet 기반의 약관 및 개인정보 처리방침 동의 기능을 구현하였습니다.
 
