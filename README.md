@@ -5,7 +5,7 @@
 - 프로젝트 이름 : FarmStory
 - 프로젝트 지속기간 : 2025.02.10-2025.03.07
 - 개발 엔진 및 언어: Eclipse & Mysql & JAVA & JavsScript  
-- 멤버 : 1조 (우상호, 변준영, 주솔지, 한결)
+- 팀 : 1조 
 <br><br>
 ## 사용 기술
 ![js](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
