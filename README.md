@@ -14,19 +14,4 @@
 ![js](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![js](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) <br><br>
 
-## 기술 퍼센트
-### 우상호
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GreenPai)](https://github.com/anuraghazra/github-readme-stats)
-
-### 변준영
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=junyoung1125)](https://github.com/anuraghazra/github-readme-stats)
-
-### 주솔지
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soljiju)](https://github.com/anuraghazra/github-readme-stats)
-
-### 한결
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gyeol00)](https://github.com/anuraghazra/github-readme-stats)
-
 ## 기능 설명
-# farm
-# 1---
