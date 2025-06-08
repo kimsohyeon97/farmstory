@@ -25,7 +25,7 @@
 사용 기술: Java, JSP, Servlet, DAO 패턴, DTO, MVC, JavaScript
 
 
-### 👤 회원가입 기능 (Register)
+### 2️⃣ 회원가입 기능 (Register)
 
 > 사용자로부터 개인정보를 입력받아 DB에 등록하는 회원가입 기능을 구현하였습니다.  
 > 아이디, 별명, 이메일, 휴대폰은 서버 중복 체크 및 정규식 유효성 검사를 수행하며, 이메일은 인증코드 검증을 통해 보안성을 강화하였습니다.
@@ -38,7 +38,7 @@
 
 사용 기술: Java, JSP, Servlet, SHA-256, JavaScript, Daum Postcode API, Gmail SMTP, Fetch API
 
-### 🔐 로그인 기능 (Login)
+### 3️⃣ 로그인 기능 (Login)
 
 > 아이디와 비밀번호를 입력받아 DB에서 검증 후, 세션에 사용자 정보를 저장하여 로그인 상태를 유지합니다.
 
@@ -50,7 +50,7 @@
 
 사용 기술: Java, JSP, Servlet, DAO 패턴, SHA-256, Session, JavaScript
 
-### 🚪 로그아웃 기능 (Logout)
+### 4️⃣ 로그아웃 기능 (Logout)
 
 > 로그인된 사용자의 세션을 초기화하고, 로그인 페이지로 리다이렉트하여 로그아웃을 처리합니다.
 
@@ -61,7 +61,7 @@
 
 사용 기술: Java, JSP, Servlet, Session
 
-### 🔎 아이디 찾기 기능 (Find User ID with Email Verification)
+### 5️⃣ 아이디 찾기 기능 (Find User ID with Email Verification)
 
 > 이름과 이메일을 입력하면 인증번호를 이메일로 발송하고, 사용자가 이를 입력해 인증에 성공하면 아이디를 확인할 수 있는 기능입니다.
 
@@ -73,7 +73,7 @@
 
 사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
 
-### 🧾 아이디 찾기 결과 화면 (Find User ID Result)
+### 6️⃣ 아이디 찾기 결과 화면 (Find User ID Result)
 
 > 이메일 인증을 완료한 사용자에게 아이디 및 관련 정보를 결과 페이지에서 출력합니다.
 
@@ -84,7 +84,7 @@
 
 사용 기술: Java, JSP, Servlet, Session
 
-### 🔐 비밀번호 찾기 기능 (Password Recovery via Email Verification)
+### 7️⃣ 비밀번호 찾기 기능 (Password Recovery via Email Verification)
 
 > 아이디와 이메일을 입력하면, 인증번호가 이메일로 발송되고, 인증에 성공한 경우 비밀번호 변경 페이지로 이동합니다.
 
@@ -96,7 +96,7 @@
 
 사용 기술: Java, JSP, Servlet, Session, JSON, Fetch API, Gmail SMTP
 
-### 🔑 비밀번호 변경 기능 (Change Password)
+### 8️⃣ 비밀번호 변경 기능 (Change Password)
 
 > 인증된 사용자가 새 비밀번호를 입력하여 계정을 갱신할 수 있는 기능입니다.
 
